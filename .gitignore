@@ -1,0 +1,60 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.pid.lock
+
+# Dependency directories
+client/node_modules/
+server/node_modules/
+
+# Build output
+dist/
+build/
+public/
+
+# Environment variables
+server/.env
+client/.env
+.env.local
+.env.*.local
+
+# Static files cache
+.cache/
+
+# Testing
+coverage/
+*.lcov
+
+# IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# React-specific
+.next/
+out/
+*.module.css.d.ts
+
+# MongoDB data files (if applicable)
+*.mongodb
+data/
+
+# Miscellaneous
+*.pem
+*.key
+*.crt

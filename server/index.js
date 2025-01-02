@@ -17,7 +17,11 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:3001"],
+    origin: [
+      "http://localhost:3000",
+      "http://localhost:3001",
+      "https://pet-care-nyiz.vercel.app",
+    ],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
